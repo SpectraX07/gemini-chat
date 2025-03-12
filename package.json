@@ -1,0 +1,26 @@
+{
+  "name": "gemini-chat",
+  "version": "1.0.0",
+  "description": "A chat system using Gemini API in Node.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpectraX07/gemini-chat.git"
+  },
+  "author": "Subrata Jana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpectraX07/gemini-chat/issues"
+  },
+  "homepage": "https://github.com/SpectraX07/gemini-chat#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
